@@ -1,0 +1,18 @@
+{
+  "name": "orchestrix-forms",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "node --test tests/js/*.test.mjs",
+    "lint": "eslint assets/dist/*.js --max-warnings=0",
+    "verify": "npm run typecheck && npm run build && npm run lint && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.8.0"
+  }
+}

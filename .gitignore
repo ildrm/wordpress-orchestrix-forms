@@ -1,0 +1,8 @@
+/vendor/
+/node_modules/
+/build/
+/.composer-cache/
+/.npm-cache/
+/.phpunit.cache/
+.DS_Store
+Thumbs.db

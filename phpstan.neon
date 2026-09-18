@@ -1,0 +1,10 @@
+parameters:
+  level: 6
+  paths:
+    - src
+  bootstrapFiles:
+    - vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+    - tests/php-stubs.php
+  excludePaths:
+    - src/Integrations/WordPressDataAdapter.php
+    - src/Developer/CliCommand.php
